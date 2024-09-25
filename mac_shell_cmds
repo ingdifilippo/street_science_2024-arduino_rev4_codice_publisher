@@ -1,7 +1,13 @@
+Avviare il server 
+
+influxdb
+
 #Comandi shell per avviare telegraf utilizzando il file di configurazione interno presente nel file del progetto
 
-Per poter scrivere impunemente nel database....
+Per poter scrivere impunemente nel database telegraf_config
 
 export INFLUX_TOKEN=DZr0tH8FlQ8Vqie0eZHZUOFkTqZdkMKkBBx17GBCxpkAJ1tlm9AUaYBro6dgAPrffXl5om1N-9Il8m4rBGKTXQ==
 telegraf --config http://localhost:8086/api/v2/telegrafs/0bf665154e785000
 
+server InfluxDB accessibile su localhost:8086
+server Grafana accessibile su localhost:3000
